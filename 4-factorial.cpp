@@ -1,15 +1,17 @@
 /*
  * Curso de Programación 1. Tema 4
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 30 de septiembre de 2019
- * Resumen: Ejemplo de un programa que utiliza composición iterativa para calcular el factorial de un número. 
+ * Última revisión: 2 de octubre de 2020
+ * Resumen: Ejemplo de un programa que utiliza composición iterativa para 
+ *          calcular el factorial de un número. 
  *          Versión solo con la función «main».
  */
 #include <iostream>
 using namespace std;
 
 /*
- * Programa que pide al usuario un número natural, lo lee del teclado y escribe en la pantalla su factorial.
+ * Programa que pide al usuario un número natural, lo lee del teclado y escribe
+ * en la pantalla su factorial.
  */
 int main() {
     cout << "Escriba un número natural: ";
@@ -17,8 +19,8 @@ int main() {
     cin >> n;
 
     // Asigna a «factorial» el valor de «n»!, siendo n>=0
-    int i = 1;
-    int factorial = 1;                  // factorial = i!
+    unsigned int i = 1;
+    unsigned int factorial = 1;                  // factorial = i!
     while (i < n) {
         i++;
         factorial = i * factorial;      // factorial = i!
