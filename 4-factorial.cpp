@@ -15,7 +15,7 @@ using namespace std;
  */
 int main() {
     cout << "Escriba un número natural: ";
-    int n;
+    unsigned int n;
     cin >> n;
 
     // Asigna a «factorial» el valor de «n»!, siendo n>=0
