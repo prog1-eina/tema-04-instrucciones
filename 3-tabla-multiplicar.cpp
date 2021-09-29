@@ -23,7 +23,7 @@ int main() {
     cout << "LA TABLA DEL " << n << endl;
 
     // Escribe las 11 líneas de la tabla de multiplicar del «n»
-    unsigned int i = 0;
+    unsigned i = 0;
     while (i <= 10) {
         cout << setw(3) << n << " x " << setw(2) << i
              << " = " << setw(3) << n * i

@@ -13,10 +13,10 @@ using namespace std;
 /*
  * Devuelve n!
  */
-unsigned int factorial(unsigned int n) {
+unsigned factorial(unsigned n) {
     // Asigna a «factorial» el valor de «n»!, siendo n>=0
-    unsigned int i = 1;
-    unsigned int factorial = 1;         // factorial = i!
+    unsigned i = 1;
+    unsigned factorial = 1;         // factorial = i!
     while (i < n) {
         i++;
         factorial = i * factorial;      // factorial = i!
@@ -31,7 +31,7 @@ unsigned int factorial(unsigned int n) {
  */
 int main() {
     cout << "Escriba un número natural: ";
-    unsigned int n;
+    unsigned n;
     cin >> n;
     
     cout << n << "! = " << factorial(n) << endl;
