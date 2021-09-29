@@ -1,4 +1,4 @@
-/*
+/*******************************************************************************
  * Curso de Programación 1. Tema 4
  * Autores: Miguel Ángel Latre y Javier Martínez
  * Última revisión: 2 de octubre de 2020
@@ -6,7 +6,7 @@
  *          calcular el factorial de un número. 
  *          Versión con una función «factorial» independiente 
  *          (ver tema 5 del curso).
- */
+ ******************************************************************************/
 #include <iostream>
 using namespace std;
 

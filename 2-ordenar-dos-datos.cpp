@@ -1,14 +1,15 @@
-/*
+/*******************************************************************************
  * Curso de Programación 1. Tema 4
  * Autores: Miguel Ángel Latre y Javier Martínez
  * Última revisión: 30 de septiembre de 2019
  * Resumen: Ejemplo de un programa simple que utiliza composición condicional.
- */
+ ******************************************************************************/
 #include <iostream>
 using namespace std;
 
 /*
- * Programa que solicita dos datos enteros al usuario y los escribe ordenados de menor a mayor en la pantalla.
+ * Programa que solicita dos datos enteros al usuario y los escribe ordenados de
+ * menor a mayor en la pantalla.
  */
 int main() {
     cout << "Escriba dos números enteros: ";
