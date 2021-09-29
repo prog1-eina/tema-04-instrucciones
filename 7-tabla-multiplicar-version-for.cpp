@@ -10,12 +10,12 @@
 using namespace std;
 
 /*
- * Programa que solicita un número entero al usuario y escribe en la pantalla la
+ * Programa que solicita un número natural al usuario y escribe en la pantalla la
  * tabla de multiplicar correspondiente a ese número.
  */
 int main() {
-    cout << "Introduzca un número: ";
-    int n;
+    cout << "Introduzca un número natural: ";
+    unsigned n;
     cin >> n;
     
     // Escribe la cabecera de la tabla de multiplicar del «n»
