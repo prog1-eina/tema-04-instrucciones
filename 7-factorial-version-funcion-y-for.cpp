@@ -16,7 +16,7 @@ using namespace std;
 unsigned factorial(unsigned n) {
     // Asigna a «factorial» el valor de «n»!, siendo n>=0
     
-    unsigned factorial = 1;                  // factorial = 0!
+    unsigned factorial = 1;                      // factorial = 0!
     for (unsigned i = 1; i <= n; i++) {
         factorial = i * factorial;               // factorial = i!
     }
