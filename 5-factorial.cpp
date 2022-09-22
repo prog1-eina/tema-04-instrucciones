@@ -1,7 +1,7 @@
 /*******************************************************************************
  * Curso de Programación 1. Tema 4
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 2 de octubre de 2020
+ * Última revisión: 22 de septiembre de 2022
  * Resumen: Ejemplo de un programa que utiliza composición iterativa para 
  *          calcular el factorial de un número. 
  *          Versión solo con la función «main».
@@ -28,5 +28,4 @@ int main() {
     // i = n, factorial = i! ==> factorial = n!
     
     cout << n << "! = " << factorial << endl;
-    return 0;
 }

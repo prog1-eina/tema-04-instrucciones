@@ -1,7 +1,7 @@
 /*******************************************************************************
  * Curso de Programación 1. Tema 4
  * Autores: Miguel Ángel Latre
- * Última revisión: 30 de septiembre de 2019
+ * Última revisión: 22 de septiembre de 2022
  * Resumen: Ejemplo de un programa simple que utiliza composición condicional.
  ******************************************************************************/
 #include <iostream>
@@ -23,6 +23,4 @@ int main() {
     else {
         cout << -x << endl;
     }
-
-    return 0;
 }

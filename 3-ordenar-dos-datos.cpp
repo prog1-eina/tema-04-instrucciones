@@ -1,7 +1,7 @@
 /*******************************************************************************
  * Curso de Programación 1. Tema 4
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 30 de septiembre de 2019
+ * Última revisión: 22 de septiembre de 2022
  * Resumen: Ejemplo de un programa simple que utiliza composición condicional.
  ******************************************************************************/
 #include <iostream>
@@ -25,6 +25,4 @@ int main() {
     // a <= b y ((a = A0 y b = B0) o (a = B0 y b = A0))
 
     cout << a << " " << b << endl;
-
-    return  0;
 }
