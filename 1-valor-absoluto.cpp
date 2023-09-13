@@ -1,7 +1,7 @@
 /*******************************************************************************
  * Curso de Programación 1. Tema 4
  * Autores: Miguel Ángel Latre
- * Última revisión: 22 de septiembre de 2022
+ * Última revisión: 13 de septiembre de 2023
  * Resumen: Ejemplo de un programa simple que utiliza composición condicional.
  ******************************************************************************/
 #include <iostream>
@@ -19,8 +19,7 @@ int main() {
     cout << "Su valor absoluto es: ";
     if (x >= 0.0) {
         cout << x << endl;
-    }
-    else {
+    } else {
         cout << -x << endl;
     }
 }
