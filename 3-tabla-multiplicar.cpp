@@ -1,10 +1,10 @@
-/*******************************************************************************
+/******************************************************************************
  * Curso de Programación 1. Tema 4
  * Autores: Miguel Ángel Latre y Javier Martínez
  * Última revisión: 22 de septiembre de 2022
  * Resumen: Ejemplo de un programa que utiliza composición iterativa.
  *          Versión con bucle «while».
- ******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 #include <iomanip>
 using namespace std;
