@@ -1,7 +1,6 @@
 /******************************************************************************
  * Curso de Programación 1. Tema 4
  * Autores: Miguel Ángel Latre
- * Última revisión: 13 de septiembre de 2023
  * Resumen: Ejemplo de un programa simple que utiliza composición condicional.
  *****************************************************************************/
 #include <iostream>
